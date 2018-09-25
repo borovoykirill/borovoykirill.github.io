@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>О компании</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <link href="main/normalize.css" rel="stylesheet">
+    <link href="main/main.min.css" rel="stylesheet">
+    <link href="slider/slider.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="main/main.min.js" defer></script>
+    <script src="slider/slider.min.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+
+</head>
+<body>
+<header class="main-header">
+
+        <div id="block_id" class="banner-wrapper">
+            <p> КАМАКО — ведущий производитель майонезов, соусов и кетчупов в Беларуси на протяжении 20 лет</p>
+            <a class="banner_wrapper__banner-close-btn" href="index.html" onclick="diplay_hide('#block_id');return false;" >
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-btn-close" width="24" height="24" viewBox="0 0 24 24">
+                    <path class="cross-1" fill="#fff" stroke="#fff" d="M1050.83,21.966l1.14-1.131,8,8-1.14,1.131Z" transform="translate(-1043.5 -13.5)"/>
+                    <path class="cross-2" fill="#fff" stroke="#fff" d="M1059.39,21.7l-1.09-1.088-7.69,7.694,1.09,1.088Z" transform="translate(-1043.5 -13.5)"/>
+                    <circle  class="circle" stroke-width=7% fill="none" stroke="#fff" cx="12" cy="12" r="11.5"/>
+                </svg>
+            </a>
+        </div>
+
+    <nav class="main-navigation">
+        <figure class="main-header-logo">
+            <a class="main-logo">
+                <img src="main/main__logo.png" alt="Логотип КАМАКО">
+            </a>
+        </figure>
+        <ul class="main-navigation__site-navigation">
+            <li class="main-navigation__site-navigation-current"><a href="index.html">О компании</a></li>
+            <li><a href="#">Продукция</a></li>
+            <li><a href="#">Благотворительность</a></li>
+            <li><a href="#">Пресс-центр</a></li>
+            <li><a href="#">Кулинарный клуб</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <ul class="main-navigation__language-switch">
+            <li class="main-navigation__language-switch__ru">
+                <a class="main_navigation__language-switch-ru language-current" href="/">Рус</a>
+            </li>
+            <li class="main-navigation__language-switch__en">
+                <a class="main-navigation__language-switch__en disabled" href="/">Eng</a>
+            </li>
+        </ul>
+        <div class="search-field">
+            <form action="/" method="post">
+                <input id="search-query" type="text" name="search" placeholder="Искать здесь..." onkeyup="lowcase()">
+                <button type="submit"></button>
+            </form>
+        </div>
+    </nav>
+</header>
+
+<main class="container">
+
+    <h1 class="visually-hidden">О компании</h1>
+
+    <section class="features">
+        <h2 class="visually-hidden">Особенности</h2>
+        <div class="ism-slider" data-play_type="loop" data-image_fx="zoomrotate" id="slider-about">
+            <ol>
+                <li>
+                    <img src="slider/slider__foto1.jpg">
+                    <div class="ism-caption ism-caption-0">
+                        Пусть всегда будет вкусно!
+                    </div>
+                    <div class="ism-caption ism-caption-1" href="/" target="_self" data-delay='200'>
+                        <h3 class="ism-caption__kitchen-club">&ndash; Кулинарный клуб &ndash;</h3>
+                        <p class="ism-caption__content">Создай свой кулинарный шедевр вместе с соусами КАМАКО</p>
+                        <a class="ism-caption__btn-learn-more" href="/">Узнать больше</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="slider/slider__foto2.jpg">
+                    <div class="ism-caption ism-caption-0">
+                        Пусть всегда будет вкусно!
+                    </div>
+                    <div class="ism-caption ism-caption-1" href="/" target="_self" data-delay='200'>
+                        <h3 class="ism-caption__kitchen-club">&ndash; Кулинарный клуб &ndash;</h3>
+                        <p class="ism-caption__content">Создай свой кулинарный шедевр вместе с соусами КАМАКО</p>
+                        <a class="ism-caption__btn-learn-more" href="/">Узнать больше</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="slider/slider__foto3.jpg">
+                    <div class="ism-caption ism-caption-0">
+                        Пусть всегда будет вкусно!
+                    </div>
+                    <div class="ism-caption ism-caption-1" href="/" target="_self" data-delay='200'>
+                        <h3 class="ism-caption__kitchen-club">&ndash; Кулинарный клуб &ndash;</h3>
+                        <p class="ism-caption__content">Создай свой кулинарный шедевр вместе с соусами КАМАКО</p>
+                        <a class="ism-caption__btn-learn-more" href="/">Узнать больше</a>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>

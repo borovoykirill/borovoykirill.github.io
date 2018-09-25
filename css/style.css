@@ -1,0 +1,399 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+img {
+  width: 100%;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+figure {
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+[role="button"] {
+  cursor: pointer;
+}
+body {
+  font-size: 14px;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.3;
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+    line-height: 1.7;
+    text-transform: uppercase;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+}
+.container {
+  width: 340px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  box-shadow: 0 0 40px -5px;
+  border: 1px solid #BBB;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .mobile-visually {
+    display: inline;
+  }
+}
+@media (min-width: 768px) {
+  .mobile-visually {
+    display: none;
+  }
+}
+.portfolio__items {
+  display: flex;
+  padding: 0 10px;
+  flex-wrap: wrap;
+}
+.portfolio__item {
+  padding: 10px;
+  margin-bottom: 40px;
+  width: 100%;
+  border-radius: 10px;
+  background: #eeeeee;
+}
+.portfolio__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #dedede;
+  margin: 0;
+  padding: 10px 0 10px 30px;
+  min-height: 112px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.portfolio__img-wrapper {
+  position: relative;
+}
+.portfolio__open-links {
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  aligns-items: center;
+  white-space: nowrap;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 50px 20px #dedede;
+}
+.portfolio__img-wrapper:hover .portfolio__open-links,
+.portfolio__img-wrapper:active .portfolio__open-links {
+  display: flex;
+}
+.portfolio__img {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+@media (min-width: 768px) {
+  .portfolio__item {
+    padding: 10px;
+    margin-bottom: 40px;
+    width: 366px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background: #eeeeee;
+  }
+  .portfolio__item:nth-child(2n) {
+    margin-right: 0;
+  }
+  .portfolio__open-links {
+    padding: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .portfolio__item {
+    padding: 10px;
+    margin-bottom: 40px;
+    width: 383px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background: #eeeeee;
+  }
+  .portfolio__item:nth-child(2n) {
+    margin-right: 15px;
+  }
+  .portfolio__item:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+.page-header__title {
+  margin: 20px 0 20px 0;
+  padding: 20px 25px;
+  background: #dedede;
+}
+@media (min-width: 768px) {
+  .page-header__title {
+    margin: 20px 0 40px 0;
+    padding: 20px 0px;
+    background: #dedede;
+  }
+}
+.btn {
+  display: inline-block;
+  padding: 14px 20px;
+  margin: 0 auto;
+  border: 1px solid #e5ddd5;
+  font-family: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #FFF;
+  cursor: pointer;
+  width: 100%;
+}
+.btn:hover {
+  border-color: #eeeeee;
+}
+
+
