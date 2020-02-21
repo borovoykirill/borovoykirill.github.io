@@ -1,2 +1,2 @@
 # borovoykirill.github.io
-[Portfolio](https://borovoykirill.github.io/ "Portfolio") 
+[Click on my portfolio!](https://borovoykirill.github.io/ "Portfolio") 
